@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Timur Diagram</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body style="background-color: lemonchiffon">
+<h1 class="head">Timur Diagram</h1>
+<label class="head" for="numParts">Кол-во частей:</label>
+<input class="head" type="number" id="numParts" min="1" value="1">
+<button class="head" onclick="createDiagram()">Создать диаграмму</button>
+<div class="chart" id="chartContainer">
+    <canvas id="diagramCanvas"></canvas>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
